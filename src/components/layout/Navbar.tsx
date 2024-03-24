@@ -31,7 +31,7 @@ const Navbar = () => {
 
     return (
         <header className={` container md:text-xl `}>
-            <div >
+            <div className="relative   flex flex-col overflow-hidden  py-4 sm:mx-auto sm:flex-row">
                 <h1 className="">
                     <span className="text-[#6e5fbe] text-[2rem]"> Electronic</span>Shop
                 </h1>
