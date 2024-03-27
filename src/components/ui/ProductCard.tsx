@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Button } from "./button";
-import { CirclePlus, EyeIcon, ShoppingCart } from "lucide-react";
+import { EyeIcon, ShoppingCart } from "lucide-react";
 import Link from "next/link";
 import { TProduct } from "@/types";
 
@@ -51,44 +51,6 @@ const ProductCard = ({ name, price, image, sellPrice, _id }: Partial<TProduct>) 
                 </div>
             </div>
         </div>
-
-        // <div
-        //     className="w-[50px] sm:min-w-80 lg:min-w-full bg-white dark:bg-zinc-950 rounded-md shadow-md dark:shadow-zinc-900 overflow-hidden"
-        // >
-        //     <Image
-        //         height={300}
-        //         width={300}
-        //         // className="object-contain w-full h-full"
-        //         src={image as string}
-        //         alt="product image"
-        //         sizes="200vw"
-        //     />
-        //     <div className="p-5 flex justify-between flex-col h-52">
-        //         <div>
-        //             <h3 className="text-lg text-primary dark:text-white font-bold">
-        //                 {name}
-        //             </h3>
-        //             <div className="mt-2.5 mb-5 flex items-center">
-        //                 <del className="mr-2 rounded bg-yellow-500 px-2.5 py-0.5 text-xs font-semibold">
-        //                     {price}
-        //                 </del>
-        //             </div>
-        //             <p className="italic font-semibold text-orange-500">
-        //                 <span className="text-primary">$</span>
-        //                 {sellPrice}
-        //             </p>
-        //         </div>
-        //         <div className="mt-5 text-center w-full">
-        //             <Link href={`/donations/${_id}`}>
-        //                 {" "}
-        //                 <Button className="w-full bg-primary dark:bg-secondary duration-500">
-        //                     View Detail
-        //                 </Button>
-        //             </Link>
-        //         </div>
-        //     </div>
-        // </div>
-
     );
 };
 
