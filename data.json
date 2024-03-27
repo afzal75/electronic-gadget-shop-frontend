@@ -1,0 +1,72 @@
+[
+  {
+    "name": "IPHONE 15 Pro Max",
+    "brand": "Apple",
+    "description": "Classic striped cotton shirt suitable for casual occasions.",
+    "price": 145000,
+    "sellPrice": 140000,
+    "rating": 4.5,
+    "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309?wid=680&hei=528&fmt=p-jpg&qlt=95&.v=1693086290312",
+    "flashSale": true
+  },
+  {
+    "name": "AirPods Pro",
+    "brand": "Apple",
+    "description": "Stylish checkered button-up shirt suitable for everyday wear.",
+    "price": 24000,
+    "sellPrice": 20000,
+    "rating": 4.8,
+    "image": "https://www.applegadgetsbd.com/product/airpods-pro-with-magsafe-charging-case",
+    "flashSale": true
+  },
+  {
+    "name": "Samsung S24 Ultra",
+    "brand": "Samsung",
+    "description": "Stylish checkered button-up shirt suitable for everyday wear.",
+    "price": 143000,
+    "sellPrice": 137000,
+    "rating": 4.8,
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/bd/2401/gallery/bd-galaxy-s24-s928-sm-s928bztcbkd-thumb-539412885?$152_152_PNG$",
+    "flashSale": false
+  },
+  {
+    "name": "One Plus 12",
+    "brand": "One Plus",
+    "description": "Classic polo shirt with a comfortable fit, perfect for casual outings.",
+    "price": 102000,
+    "sellPrice": 99000,
+    "rating": 4.5,
+    "image": "https://www.oneplus.com/content/dam/oasis/page/2024/nav/in/waffle-green.png",
+    "flashSale": false
+  },
+  {
+    "name": "Realme GT5 Pro",
+    "brand": "Realme",
+    "description": "Stylish denim button-down shirt for a rugged yet trendy look.",
+    "price": 72000,
+    "sellPrice": 69000,
+    "rating": 4.3,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/realme-gt5-pro.jpg",
+    "flashSale": true
+  },
+  {
+    "name": "Asus Rog 8 Pro",
+    "brand": "Asus",
+    "description": "Elegant striped polo shirt perfect for casual wear.",
+    "price": 146000,
+    "sellPrice": 140000,
+    "rating": 4.7,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/asus-rog-phone-8-pro.jpg",
+    "flashSale": false
+  },
+  {
+    "name": "Samsung S23 Ultra",
+    "brand": "DenimWorks",
+    "description": "Classic denim shirt with a versatile style for everyday wear.",
+    "price": 133500,
+    "sellPrice": 124000,
+    "rating": 4.6,
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s23-ultra-5g.jpg",
+    "flashSale": true
+  }
+]
