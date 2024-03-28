@@ -1,6 +1,7 @@
 import { BannerSection } from '@/components/home/BannerSection';
 import FlashSale from '@/components/home/FlashSale';
 import TopBrands from '@/components/home/TopBrands';
+import TrendingProduct from '@/components/home/TrendingProduct';
 import React from 'react';
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
             <BannerSection />
             <FlashSale />
             <TopBrands />
+            <TrendingProduct />
         </div>
     );
 };
