@@ -6,18 +6,18 @@ export const BannerSection = () => {
     const sliders = [
         {
             img: "https://img.freepik.com/premium-vector/consumer-electronics-store-interior-showcase-shelves-with-laptop-computer_276875-601.jpg?w=740",
-            title: "Explore Our Latest Arrivals!",
-            des: "Indulge in sophistication with our newest collection. Elevate your wardrobe with stylish pieces that exude confidence and allure.",
+            // title: "Explore Our Latest Arrivals!",
+            // des: "Indulge in sophistication with our newest collection. Elevate your wardrobe with stylish pieces that exude confidence and allure.",
         },
         {
             img: "https://img.freepik.com/premium-photo/photo-real-estate-building_896360-2767.jpg?w=740",
-            title: "Don't Miss Out on Our Exclusive Flash Sale!",
-            des: "Unbeatable deals await! Shop now and indulge in luxury without breaking the bank. Limited time offer, act fast!",
+            // title: "Don't Miss Out on Our Exclusive Flash Sale!",
+            // des: "Unbeatable deals await! Shop now and indulge in luxury without breaking the bank. Limited time offer, act fast!",
         },
         {
             img: "https://img.freepik.com/premium-vector/new-home-appliance-products-electronics-store-big-sale-black-friday-shopping-concept-horizontal_48369-46025.jpg?w=826",
-            title: "Stay Chic & Glamorous This Summer!",
-            des: "Beat the heat in style with our sizzling summer essentials. From sultry dresses to statement swimwear, unleash your inner fashionista.",
+            // title: "Stay Chic & Glamorous This Summer!",
+            // des: "Beat the heat in style with our sizzling summer essentials. From sultry dresses to statement swimwear, unleash your inner fashionista.",
         },
     ];
 
@@ -43,10 +43,10 @@ export const BannerSection = () => {
                     {/* text container here */}
                     <div className="drop-shadow-lg text-white text-center px-5">
                         <h1 className="text-xl lg:text-6xl font-semibold mb-3">
-                            {sliders[currentSlider].title}
+                            {/* {sliders[currentSlider].title} */}
                         </h1>
                         <p className="text-sm md:w-1/2 my-5 mx-auto md:text-base lg:text-lg">
-                            {sliders[currentSlider].des}
+                            {/* {sliders[currentSlider].des} */}
                         </p>
                     </div>
                 </div>
@@ -68,3 +68,5 @@ export const BannerSection = () => {
         </div>
     );
 };
+
+
