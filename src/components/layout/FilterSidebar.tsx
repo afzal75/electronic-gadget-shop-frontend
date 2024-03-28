@@ -1,11 +1,4 @@
 import { TProduct } from "@/types";
-import {
-    Select,
-    SelectContent,
-    SelectItem,
-    SelectTrigger,
-    SelectValue,
-} from "@/components/ui/select";
 
 import Link from "next/link";
 import getAllProducts from "@/hooks/getAllProduct";
@@ -14,31 +7,30 @@ const FilterSidebar = async () => {
     const ratingLinks = [
         {
             rating: "4-5",
-            label: "Under 5 ⭐⭐⭐⭐⭐",
+            label: "⭐⭐⭐⭐⭐",
             href: "/products/?rating=5",
         },
         {
             rating: "3-4",
-            label: "Upper 4 ⭐⭐⭐⭐",
+            label: "⭐⭐⭐⭐",
             href: "/products?rating=4",
         },
-        { rating: "2-3", label: "Upper 3 ⭐⭐⭐", href: "/products?rating=3" },
-        { rating: "2-3", label: "Upper 2 4⭐⭐", href: "/products?rating=2" },
-        { rating: "2-3", label: "Upper 1⭐", href: "/products?rating=1" },
+        { rating: "2-3", label: "⭐⭐⭐", href: "/products?rating=3" },
+        { rating: "2-3", label: "⭐⭐", href: "/products?rating=2" },
+        { rating: "2-3", label: "⭐", href: "/products?rating=1" },
     ];
     const priceLinks = [
         { label: "Under ৳300", href: "/products?price=100-300" },
-        { label: "৳1000 to ৳1200", href: "/products?price=1000-1200" },
-        { label: "৳1200 to ৳1500", href: "/products?price=1200-1500" },
-        { label: "৳1200 to ৳1500", href: "/products?price=1500-2000" },
-        { label: "৳2000 to ৳4000", href: "/products?price=2000-4000" },
+        { label: "৳15000 to ৳25000", href: "/products?price=15000-25000" },
+        { label: "৳100000 to ৳120000", href: "/products?price=100000-125000" },
+        { label: "৳120001 to ৳130000", href: "/products?price=120001-130009" },
+        { label: "৳130001 to ৳160000", href: "/products?price=130001-160000" },
     ];
     const { result: allDynamicCategory } = await getAllProducts({});
     const brands = allDynamicCategory.map((item: TProduct) => item.brand);
     const uniqueCategories: string[] = Array.from(new Set(brands));
     return (
         <div className="col-span-12 md:col-span-3  p-5 min-h-screen">
-            {/* filter by price */}
             <details open className="  w-full overflow-hidden  p-2">
                 <summary className="flex flex-col cursor-pointer select-none items-center justify-between px-5 py-3 lg:hidden"></summary>
                 <form className="flex flex-col border-t border-gray-200 lg:border-t-0">

@@ -5,18 +5,18 @@
     "description": "Classic striped cotton shirt suitable for casual occasions.",
     "price": 145000,
     "sellPrice": 140000,
-    "rating": 4.5,
+    "rating": 5,
     "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309?wid=680&hei=528&fmt=p-jpg&qlt=95&.v=1693086290312",
     "flashSale": true
   },
   {
-    "name": "AirPods Pro",
-    "brand": "Apple",
+    "name": "Oppo A17",
+    "brand": "Oppo",
     "description": "Stylish checkered button-up shirt suitable for everyday wear.",
     "price": 24000,
     "sellPrice": 20000,
-    "rating": 4.8,
-    "image": "https://www.applegadgetsbd.com/product/airpods-pro-with-magsafe-charging-case",
+    "rating": 2,
+    "image": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/a17-en/navigation/a17-427x600_Blue.png",
     "flashSale": true
   },
   {
@@ -25,8 +25,18 @@
     "description": "Stylish checkered button-up shirt suitable for everyday wear.",
     "price": 143000,
     "sellPrice": 137000,
+    "rating": 4,
+    "image": "https://image-us.samsung.com/us/smartphones/galaxy-s24/all-gallery/01_E3_TitaniumBlack_Lockup_1600x1200.jpg?$product-card-small-jpg$",
+    "flashSale": false
+  },
+  {
+    "name": "Samsung S24 Ultra",
+    "brand": "Samsung",
+    "description": "Stylish checkered button-up shirt suitable for everyday wear.",
+    "price": 143000,
+    "sellPrice": 137000,
     "rating": 4.8,
-    "image": "https://images.samsung.com/is/image/samsung/p6pim/bd/2401/gallery/bd-galaxy-s24-s928-sm-s928bztcbkd-thumb-539412885?$152_152_PNG$",
+    "image": "https://image-us.samsung.com/us/smartphones/galaxy-s24/all-gallery/01_E3_TitaniumBlack_Lockup_1600x1200.jpg?$product-card-small-jpg$",
     "flashSale": false
   },
   {
@@ -46,7 +56,17 @@
     "price": 72000,
     "sellPrice": 69000,
     "rating": 4.3,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/realme-gt5-pro.jpg",
+    "image": "https://r1.realme.net/general/20231207/17019153113549cc4e9e2f8104af79693a75b77e77d12.png?width=1440&height=1440&size=525603?x-oss-process=image/format,webp",
+    "flashSale": true
+  },
+  {
+    "name": "Realme GT5 Pro",
+    "brand": "Realme",
+    "description": "Stylish denim button-down shirt for a rugged yet trendy look.",
+    "price": 72000,
+    "sellPrice": 69000,
+    "rating": 4.3,
+    "image": "https://r1.realme.net/general/20231207/17019153113549cc4e9e2f8104af79693a75b77e77d12.png?width=1440&height=1440&size=525603?x-oss-process=image/format,webp",
     "flashSale": true
   },
   {
@@ -56,7 +76,17 @@
     "price": 146000,
     "sellPrice": 140000,
     "rating": 4.7,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/asus-rog-phone-8-pro.jpg",
+    "image": "https://dlcdnwebimgs.asus.com/gain/B7CAAEAE-B703-45D0-B037-7200CAD1ED5F/w1000/h732",
+    "flashSale": false
+  },
+  {
+    "name": "Asus Rog 7 Pro",
+    "brand": "Asus",
+    "description": "Elegant striped polo shirt perfect for casual wear.",
+    "price": 146000,
+    "sellPrice": 140000,
+    "rating": 4.7,
+    "image": "https://dlcdnwebimgs.asus.com/gain/B7CAAEAE-B703-45D0-B037-7200CAD1ED5F/w1000/h732",
     "flashSale": false
   },
   {
@@ -66,7 +96,27 @@
     "price": 133500,
     "sellPrice": 124000,
     "rating": 4.6,
-    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s23-ultra-5g.jpg",
+    "image": "https://image-us.samsung.com/us/smartphones/galaxy-s23-ultra/images/gallery/cream/01-DM3-Cream-PDP-1600x1200.jpg?$default-400-jpg$",
     "flashSale": true
+  },
+  {
+    "name": "Samsung S23 Ultra",
+    "brand": "DenimWorks",
+    "description": "Classic denim shirt with a versatile style for everyday wear.",
+    "price": 133500,
+    "sellPrice": 124000,
+    "rating": 4.6,
+    "image": "https://image-us.samsung.com/us/smartphones/galaxy-s23-ultra/images/gallery/cream/01-DM3-Cream-PDP-1600x1200.jpg?$default-400-jpg$",
+    "flashSale": true
+  },
+  {
+    "name": "Samsung S24",
+    "brand": "Samsung",
+    "description": "Stylish checkered button-up shirt suitable for everyday wear.",
+    "price": 130000,
+    "sellPrice": 122000,
+    "rating": 3,
+    "image": "https://image-us.samsung.com/us/smartphones/galaxy-s24/all-gallery/01_E1_OnlineExclusive_JadeGreen_Lockup_1600x1200.jpg?$default-400-jpg$",
+    "flashSale": false
   }
 ]
