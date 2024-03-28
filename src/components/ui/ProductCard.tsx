@@ -24,7 +24,7 @@ const ProductCard = ({ name, price, image, sellPrice, _id }: Partial<TProduct>) 
                     </div>
 
                     <div className="absolute flex flex-col -right-16 bottom-0 mr-2 mb-4 space-y-2 transition-all duration-300 group-hover:right-0">
-                        <Link href={`/mens-shirts/${_id}`}>
+                        <Link href={`/products/${_id}`}>
                             <Button>
                                 <EyeIcon className="size-4" />
                             </Button>
