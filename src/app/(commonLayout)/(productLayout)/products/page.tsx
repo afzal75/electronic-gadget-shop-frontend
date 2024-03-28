@@ -4,7 +4,7 @@ import getAllProducts from "@/hooks/getAllProduct";
 import { TProduct } from "@/types";
 import Image from "next/image";
 
-const MensShirtsPage = async ({ searchParams }: { searchParams: any }) => {
+const AllProducts = async ({ searchParams }: { searchParams: any }) => {
     const { result: allProducts } = await getAllProducts(searchParams);
 
     return (
@@ -27,11 +27,11 @@ const MensShirtsPage = async ({ searchParams }: { searchParams: any }) => {
             ) : (
                 <div>
                     <h2 className="font-semibold text-xl bg-slate-100 p-3">
-                        All Products
+                        Mens's Shirts
                     </h2>
                     <br />
                     <p className="text-sm text-slate-800">
-                        {allProducts.length} items found in All Products
+                        {allProducts.length} items found in Mens's Shirts
                     </p>
                 </div>
             )}
@@ -47,4 +47,4 @@ const MensShirtsPage = async ({ searchParams }: { searchParams: any }) => {
     );
 };
 
-export default MensShirtsPage;
+export default AllProducts;

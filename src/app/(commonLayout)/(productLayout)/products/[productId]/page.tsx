@@ -43,36 +43,6 @@ const ProductDetails = async ({
                                     className="w-full mx-auto rounded object-contain"
                                 />
                             </div>
-                            {/* <div className="mt-6 flex flex-wrap justify-center gap-6 mx-auto">
-                <div className="rounded-xl p-4 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)]">
-                  <img
-                    src="https://readymadeui.com/images/laptop2.webp"
-                    alt="Product2"
-                    className="w-24 cursor-pointer"
-                  />
-                </div>
-                <div className="rounded-xl p-4 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)]">
-                  <img
-                    src="https://readymadeui.com/images/laptop3.webp"
-                    alt="Product2"
-                    className="w-24 cursor-pointer"
-                  />
-                </div>
-                <div className="rounded-xl p-4 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)]">
-                  <img
-                    src="https://readymadeui.com/images/laptop4.webp"
-                    alt="Product2"
-                    className="w-24 cursor-pointer"
-                  />
-                </div>
-                <div className="rounded-xl p-4 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)]">
-                  <img
-                    src="https://readymadeui.com/images/laptop5.webp"
-                    alt="Product2"
-                    className="w-24 cursor-pointer"
-                  />
-                </div>
-              </div> */}
                         </div>
                         <div className="lg:col-span-2">
                             <h2 className="text-2xl font-extrabold text-primary">
