@@ -15,9 +15,9 @@ const Navbar = () => {
                 alignItems="center"
             >
                 <Typography variant="h4" component={Link} href={"/"} fontWeight={600}>
-                    Style{" "}
+                    Mobile{" "}
                     <Box component="span" color="primary.main">
-                        sync
+                        Gadgate
                     </Box>
                 </Typography>
                 <Stack direction={"row"} gap={2}>
