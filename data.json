@@ -2,7 +2,7 @@
   {
     "name": "IPHONE 15 Pro Max",
     "brand": "Apple",
-    "description": "Classic striped cotton shirt suitable for casual occasions.",
+    "description": "The iPhone is a series of smartphones made by Apple Inc since 2007. It is a mobile phone, meaning that it makes calls and sends text messages without wires.",
     "price": 145000,
     "sellPrice": 140000,
     "rating": 5,
@@ -12,7 +12,7 @@
   {
     "name": "Oppo A17",
     "brand": "Oppo",
-    "description": "Stylish checkered button-up shirt suitable for everyday wear.",
+    "description": "Oppo is a Chinese consumer electronics manufacturer headquartered in Dongguan, Guangdong. Its major product lines include smartphones, smart devices",
     "price": 24000,
     "sellPrice": 20000,
     "rating": 2,
@@ -22,7 +22,7 @@
   {
     "name": "Samsung S24 Ultra",
     "brand": "Samsung",
-    "description": "Stylish checkered button-up shirt suitable for everyday wear.",
+    "description": "Samsung Galaxy is a series of computing and mobile computing devices that are designed, manufactured and marketed by Samsung Electronics.",
     "price": 143000,
     "sellPrice": 137000,
     "rating": 4,
@@ -32,7 +32,7 @@
   {
     "name": "Samsung S24 Ultra",
     "brand": "Samsung",
-    "description": "Stylish checkered button-up shirt suitable for everyday wear.",
+    "description": "Samsung Galaxy is a series of computing and mobile computing devices that are designed, manufactured and marketed by Samsung Electronics.",
     "price": 143000,
     "sellPrice": 137000,
     "rating": 4.8,
@@ -41,8 +41,8 @@
   },
   {
     "name": "One Plus 12",
-    "brand": "One Plus",
-    "description": "Classic polo shirt with a comfortable fit, perfect for casual outings.",
+    "brand": "onePlus",
+    "description": "OnePlus releases two lines of smartphones: its flagship line, and its budget-oriented Nord line. Both lines are equipped with an Android-based ",
     "price": 102000,
     "sellPrice": 99000,
     "rating": 4.5,
@@ -52,7 +52,7 @@
   {
     "name": "Realme GT5 Pro",
     "brand": "Realme",
-    "description": "Stylish denim button-down shirt for a rugged yet trendy look.",
+    "description": "Designed for the tech-savvy generation, Realme mobile phones are packed with impressive features which are sure to turn heads. ",
     "price": 72000,
     "sellPrice": 69000,
     "rating": 4.3,
@@ -62,7 +62,7 @@
   {
     "name": "Realme GT5 Pro",
     "brand": "Realme",
-    "description": "Stylish denim button-down shirt for a rugged yet trendy look.",
+    "description": "Designed for the tech-savvy generation, Realme mobile phones are packed with impressive features which are sure to turn heads. ",
     "price": 72000,
     "sellPrice": 69000,
     "rating": 4.3,
@@ -72,7 +72,7 @@
   {
     "name": "Asus Rog 8 Pro",
     "brand": "Asus",
-    "description": "Elegant striped polo shirt perfect for casual wear.",
+    "description": "Game-changing smartphone with unique console-inspired design delivers epic performance, unbeatable visuals, total gaming control and endless possibilities.",
     "price": 146000,
     "sellPrice": 140000,
     "rating": 4.7,
@@ -82,7 +82,7 @@
   {
     "name": "Asus Rog 7 Pro",
     "brand": "Asus",
-    "description": "Elegant striped polo shirt perfect for casual wear.",
+    "description": "Game-changing smartphone with unique console-inspired design delivers epic performance, unbeatable visuals, total gaming control and endless possibilities.",
     "price": 146000,
     "sellPrice": 140000,
     "rating": 4.7,
@@ -91,8 +91,8 @@
   },
   {
     "name": "Samsung S23 Ultra",
-    "brand": "DenimWorks",
-    "description": "Classic denim shirt with a versatile style for everyday wear.",
+    "brand": "Samsung",
+    "description": "Samsung Galaxy is a series of computing and mobile computing devices that are designed, manufactured and marketed by Samsung Electronics.",
     "price": 133500,
     "sellPrice": 124000,
     "rating": 4.6,
@@ -101,8 +101,8 @@
   },
   {
     "name": "Samsung S23 Ultra",
-    "brand": "DenimWorks",
-    "description": "Classic denim shirt with a versatile style for everyday wear.",
+    "brand": "Samsung",
+    "description": "Samsung Galaxy is a series of computing and mobile computing devices that are designed, manufactured and marketed by Samsung Electronics.",
     "price": 133500,
     "sellPrice": 124000,
     "rating": 4.6,
@@ -112,7 +112,7 @@
   {
     "name": "Samsung S24",
     "brand": "Samsung",
-    "description": "Stylish checkered button-up shirt suitable for everyday wear.",
+    "description": "Samsung Galaxy is a series of computing and mobile computing devices that are designed, manufactured and marketed by Samsung Electronics.",
     "price": 130000,
     "sellPrice": 122000,
     "rating": 3,

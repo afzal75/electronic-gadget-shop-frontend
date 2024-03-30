@@ -3,12 +3,13 @@ import { TProduct } from "@/types";
 import Link from "next/link";
 import getAllProducts from "@/hooks/getAllProduct";
 
-const FilterSidebar = async () => {
+const FilterSidebar = async ({ }) => {
+
     const ratingLinks = [
         {
             rating: "4-5",
             label: "⭐⭐⭐⭐⭐",
-            href: "/products/?rating=5",
+            href: "/products?rating=5",
         },
         {
             rating: "3-4",
@@ -81,7 +82,6 @@ const FilterSidebar = async () => {
                         <div className="space-y-1 py-2">
                             <hr className="border" />
                             {uniqueCategories.map((brand) => {
-                                // console.log(category);
                                 return (
                                     <div key={brand} className="flex items-center">
                                         <Link
