@@ -37,8 +37,6 @@ export const BannerSection = () => {
                     <div className="drop-shadow-lg text-white text-center px-5">
                         <h1 className="text-xl lg:text-6xl font-semibold mb-3">
                         </h1>
-                        <p className="text-sm md:w-1/2 my-5 mx-auto md:text-base lg:text-lg">
-                        </p>
                     </div>
                 </div>
                 {/* slider container */}

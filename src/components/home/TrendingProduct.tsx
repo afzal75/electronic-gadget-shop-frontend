@@ -6,7 +6,7 @@ import { TProduct } from "@/types";
 
 const TrendingProduct = async () => {
     const res = await fetch(
-        "http://localhost:5000/products",
+        "https://mobile-gadget-backend.vercel.app/products",
         {
             next: {
                 revalidate: 30,
@@ -14,7 +14,6 @@ const TrendingProduct = async () => {
         }
     );
     const { result: trendingProducts } = await res.json();
-    // console.log(trendingProducts);
     return (
         <div className="my-10 p-5">
             <div className="flex justify-between items-center">
@@ -36,7 +35,7 @@ const TrendingProduct = async () => {
                 className="my-10 grid
      md:grid-cols-3 gap-5  justify-center place-items-center"
             >
-                {trendingProducts.map((item: TProduct) => (
+                {trendingProducts?.map((item: TProduct) => (
                     <ProductCard key={item._id} {...item} />
                 ))}
             </div>

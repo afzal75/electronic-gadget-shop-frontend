@@ -1,6 +1,4 @@
 import Image from "next/image";
-import { Button } from "./button";
-import { EyeIcon, ShoppingCart } from "lucide-react";
 import Link from "next/link";
 import { TProduct } from "@/types";
 
@@ -22,17 +20,6 @@ const ProductCard = ({ name, price, image, sellPrice, _id }: Partial<TProduct>) 
                             <span className="absolute top-0 left-0 m-2 rounded-full bg-black px-2 text-center text-sm font-medium text-white">
                                 39% OFF
                             </span>
-                        </div>
-
-                        <div className="absolute flex flex-col -right-16 bottom-0 mr-2 mb-4 space-y-2 transition-all duration-300 group-hover:right-0">
-                            <Link href={`/products/${_id}`}>
-                                <Button>
-                                    <EyeIcon className="size-4" />
-                                </Button>
-                            </Link>
-                            <Button>
-                                <ShoppingCart className="size-4" />
-                            </Button>
                         </div>
                     </div>
                     <div className="mt-4 pb-5">

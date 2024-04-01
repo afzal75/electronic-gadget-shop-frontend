@@ -11,7 +11,7 @@ import {
 import { TProduct } from "@/types";
 import Image from "next/image";
 const AllProducts = async () => {
-    const res = await fetch("http://localhost:5000/products", {
+    const res = await fetch("https://mobile-gadget-backend.vercel.app/products", {
         next: {
             revalidate: 30,
         },

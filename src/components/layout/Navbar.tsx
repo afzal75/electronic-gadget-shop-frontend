@@ -1,5 +1,3 @@
-
-
 import { Box, Container, Stack, Typography } from "@mui/material";
 import Link from "next/link";
 

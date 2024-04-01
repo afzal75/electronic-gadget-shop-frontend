@@ -1,8 +1,9 @@
 const getAllProducts = async (query: any) => {
-    let url = `http://localhost:5000/products`;
+    let url = "https://mobile-gadget-backend.vercel.app/products";
+    console.log(url)
     if (Object.entries(query).length > 0) {
         const [[key, value]] = Object.entries(query);
-        url = `http://localhost:5000/products/filter?${key}=${value}`;
+        url = `https://mobile-gadget-backend.vercel.app/products/filter?${key}=${value}`;
     }
     const res = await fetch(url, {
         cache: "no-cache",

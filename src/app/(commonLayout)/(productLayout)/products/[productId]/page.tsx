@@ -10,7 +10,7 @@ type TProductDetailsParams = {
 };
 
 export const generateStaticParams = async () => {
-  const res = await fetch(`http://localhost:5000/products`);
+  const res = await fetch("https://mobile-gadget-backend.vercel.app/products");
   const { result: products } = await res.json();
 
   return products?.map((product: TProduct) => ({
@@ -25,7 +25,7 @@ const ProductDetails = async ({
   // console.log(params);
   const id = params.productId;
   const res = await fetch(
-    `http://localhost:5000/products/${id}`
+    `https://mobile-gadget-backend.vercel.app/products/${id}`
   );
   const { result: product } = await res.json();
   // console.log(product);

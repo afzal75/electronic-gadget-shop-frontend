@@ -6,7 +6,7 @@ import { TProduct } from "@/types";
 
 const FlashSale = async () => {
     const res = await fetch(
-        "http://localhost:5000/products",
+        "https://mobile-gadget-backend.vercel.app/products",
         {
             next: {
                 revalidate: 30,
