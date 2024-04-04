@@ -1,6 +1,6 @@
 ## Mobile Gadgate Website
 
-## Live URL: https://mobile-gadget-shops-frontend.vercel.app/
+## Live URL:
 
 ## Setup
 
