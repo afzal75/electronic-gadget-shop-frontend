@@ -1,6 +1,6 @@
 ## Mobile Gadgate Website
 
-## Live URL:
+## Live URL: https://mobile-frontend-inky.vercel.app/
 
 ## Setup
 
