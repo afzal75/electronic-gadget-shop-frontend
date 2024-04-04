@@ -1,3 +1,5 @@
+
+
 const getAllProducts = async (query: any) => {
     let url = "https://mobile-gadget-backend.vercel.app/products";
     console.log(url)

@@ -25,7 +25,13 @@ export const BannerSection = () => {
             5000
         );
         return () => clearInterval(intervalId);
-    }, [currentSlider, sliders.length]);
+    },
+        [currentSlider, sliders.length],
+
+    );
+
+    <h1>{currentSlider ? 'This is never prerendered' : 'Prerendered'}</h1>
+
 
     return (
         <div className=" w-full">
@@ -54,6 +60,7 @@ export const BannerSection = () => {
                     ))}
                 </div>
             </div>
+
         </div>
     );
 };
